@@ -1,0 +1,66 @@
+html, body {
+  height: 100%;
+  background-color: #e2d3c5; }
+
+.text {
+  color: #ffffff;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 800;
+  margin-top: 60px; }
+
+.tree {
+  position: relative;
+  top: 300px;
+  left: 50%;
+  margin-left: -400px;
+  margin-top: -400px;
+  width: 800px;
+  height: 800px;
+  background-image: linear-gradient(55deg, #317ba6 6.5%, transparent 6.5%), linear-gradient(-55deg, #2f77a0 6.5%, transparent 6.5%), linear-gradient(55deg, #3078a2 8.5%, transparent 8.5%), linear-gradient(-55deg, #2e749c 8.5%, transparent 8.5%), linear-gradient(60deg, #2c6f96 10.5%, transparent 10.5%), linear-gradient(-60deg, #2b6b90 10.5%, transparent 10.5%), linear-gradient(60deg, #29678a 12%, transparent 12%), linear-gradient(-60deg, #276285 12%, transparent 12%), linear-gradient(80deg, white 8%, transparent 8%), linear-gradient(-80deg, #fbfbfb 8%, transparent 8%);
+  background-position: 400px 307.6923076923px, 400px 307.6923076923px, 400px 400px, 400px 400px, 400px 500px, 400px 500px, 400px 592.5925925926px, 400px 592.5925925926px, 400px 640px, 400px 640px; }
+  .tree .light {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    margin-left: 390px;
+    margin-top: 160px;
+    padding: 0;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background: #ffffff;
+    box-shadow: 0px 3.3333333333px 40px 10px #ffffff;
+    border-radius: 50%; }
+    .tree .light.light--yellow-flash {
+      animation-fill-mode: both;
+      animation-iteration-count: infinite;
+      animation-name: flash-yellow;
+      animation-duration: 1.2s; }
+    .tree .light.light--red-flash {
+      animation-fill-mode: both;
+      animation-iteration-count: infinite;
+      animation-name: flash-red;
+      animation-duration: 2.1s; }
+    .tree .light:nth-child(odd) {
+      animation-duration: 1.8s; }
+    .tree .light:nth-child(3n+1) {
+      animation-duration: 1.4s; }
+
+@keyframes flash-yellow {
+  0%, 100% {
+    background: #f7e700;
+    box-shadow: 0px 3.3333333333px 40px 10px #f7e700; }
+  50% {
+    background: rgba(0, 247, 165, 0.4);
+    box-shadow: 0px 3.3333333333px 40px 10px rgba(0, 247, 165, 0.2); } }
+@keyframes flash-red {
+  0%, 100% {
+    background: #f70094;
+    box-shadow: 0px 3.3333333333px 40px 10px #f70094; }
+  50% {
+    background: rgba(247, 0, 148, 0.4);
+    box-shadow: 0px 3.3333333333px 40px 10px rgba(247, 0, 148, 0.2); } }
+
+/*# sourceMappingURL=css-mas.css.map */
